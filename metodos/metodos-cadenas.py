@@ -15,7 +15,7 @@ busqueda_find = cadena1.find("a")   # Devuelve posicion en la cadena
 busqueda_find = cadena1.find("Hola")    # Devuelve posicion en la cadena de la primera letra
 
 # Busca una cadena en otra cadena (si no hay resultados devuelve una excepción)
-#busqueda_index = cadena1.index("d")
+busqueda_index = cadena1.index("d")
 
 # Si es numerico, devuelve True, si no, False
 es_numerico = cadena1.isnumeric()
