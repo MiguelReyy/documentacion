@@ -13,6 +13,7 @@ lista[3] = 2
 
 print(lista[3])
 print(tupla[3])
+print(lista[0:2])
 
 # Creando un conjunto (no se pueden modificar, no se accede por índice, no almacena duplicados)
 conjunto = {"Alvaro","Hombre",True,1.85,"Alvaro"}
