@@ -35,12 +35,12 @@ print(my_dict["Nombre"])
 print("Moure" in my_dict)
 print("Apellido" in my_dict)
 
-# Inserción
+# Inserción de archivos clave valor
 
 my_dict["Calle"] = "Calle MoureDev"
 print(my_dict)
 
-# Actualización
+# Actualización, cambio de un valor en este caso cambia el nombre por pedro
 
 my_dict["Nombre"] = "Pedro"
 print(my_dict["Nombre"])
@@ -50,6 +50,11 @@ print(my_dict["Nombre"])
 del my_dict["Calle"]
 print(my_dict)
 
+# Devuelve el valor del key introducido (si no encuentra devuelve None)
+
+print(my_dict.get("Edad"))
+
+
 # Otras operaciones
 
 print(my_dict.items())
@@ -58,19 +63,12 @@ print(my_dict.values())
 
 my_list = ["Nombre", 1, "Piso"]
 
-my_new_dict = dict.fromkeys((my_list))
+my_new_dict = dict.fromkeys((my_list)) #crea un nuevo diccionario con las claves de my_list
 print(my_new_dict)
-my_new_dict = dict.fromkeys(("Nombre", 1, "Piso"))
-print((my_new_dict))
-my_new_dict = dict.fromkeys(my_dict)
-print((my_new_dict))
-my_new_dict = dict.fromkeys(my_dict, "MoureDev")
-print((my_new_dict))
 
-my_values = my_new_dict.values()
-print(type(my_values))
+my_new_dict = dict.fromkeys(my_dict, "MoureDev") #le pone Mouredev como valor a todos los elementos
+print((my_new_dict))
 
 print(my_new_dict.values())
-print(list(dict.fromkeys(list(my_new_dict.values())).keys()))
-print(tuple(my_new_dict))
-print(set(my_new_dict))
+print(tuple(my_new_dict)) #transformar a tupla
+print(set(my_new_dict)) ##transformar a set

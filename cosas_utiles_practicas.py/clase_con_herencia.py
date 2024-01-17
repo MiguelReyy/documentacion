@@ -11,7 +11,7 @@ BMW = vehiculo(35, "tractor", "AAA1234")
 
 BMW.presentarse()
 
-print(BMW.precio)
+print(BMW.price)
 
 """class coche(vehiculo):
     pass #aunque este vacia esta heredando los elementos y atributos de la clase vehiculo

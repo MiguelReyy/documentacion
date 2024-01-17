@@ -3,6 +3,7 @@
 ### Tuples ###
 
 # Definición
+# tuplas los elementos son inmutables
 
 my_tuple = tuple()
 my_other_tuple = ()

@@ -18,9 +18,6 @@ print(my_tab_string)
 # Formateo
 
 name, surname, age = "Brais", "Moure", 35
-print("Mi nombre es {} {} y mi edad es {}".format(name, surname, age))
-print("Mi nombre es %s %s y mi edad es %d" % (name, surname, age))
-print("Mi nombre es " + name + " " + surname + " y mi edad es " + str(age))
 print(f"Mi nombre es {name} {surname} y mi edad es {age}")
 
 # Desempaqueado de caracteres
