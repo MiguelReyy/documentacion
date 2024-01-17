@@ -1,5 +1,5 @@
 # Creando una lista con list()
-lista = list(["hola","alvaro",34])
+lista = ["hola","alvaro",34]
 
 # Devuelve la cantidad de elementos de la lista
 cantidad_elementos = len(lista)
@@ -8,7 +8,7 @@ cantidad_elementos = len(lista)
 lista.append("hombre")
 
 # Añade un elemento a la lista en un índice específico
-lista.insert(2, "santamaria")   # 18 es el 2 y 34 es el 3 ahora
+lista.insert(2, "santamaria")
 
 # Añadir varios elementos a la lista
 lista.extend([False, 2024])
