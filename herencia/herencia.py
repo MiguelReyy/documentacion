@@ -31,6 +31,9 @@ class Vehiculos():
 # La clase moto hereda la clase vehículos
 class Moto(Vehiculos):
     
+    def __init__(self, marca, modelo):
+        super().__init__(marca, modelo)
+
     haciendo_caballito = False
     
     def caballito(self):
