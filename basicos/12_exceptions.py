@@ -43,7 +43,7 @@ except TypeError:                       #solo captura errores type error
 try:
     print(numberOne + numberTwo)
     print("No se ha producido un error")
-except ValueError as error:
+except ValueError as error: #error es un nombre podria ser el que fuese que almacena la informacion del error value error si fuese ese el error que ocurre
     print(error)
 except Exception as my_random_error: #exception es cualquier error es como una excepcion generica
     print(my_random_error)
