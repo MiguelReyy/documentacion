@@ -13,11 +13,11 @@ BMW.presentarse()
 
 print(BMW.price)
 
-"""class coche(vehiculo):
+class coche(vehiculo):
     pass #aunque este vacia esta heredando los elementos y atributos de la clase vehiculo
 
 coche = coche(56, "coche", "bbb1234")
-coche.presentarse() """
+coche.presentarse()
 
 class coche(vehiculo):
     def __init__(self,price, tipo, matricula, tiporuedas, gastomensual):
@@ -39,7 +39,7 @@ class moto(vehiculo):
         self.cilindrada = cilindrada
     
     def describirse(self):
-        print(f"tengo una cilindrada de {self.cilindrada} y cuesto {self.precio} euros")
+        print(f"tengo una cilindrada de {self.cilindrada} y cuesto {self.price} euros")
 
 moto = moto(25, "moto", "ccc1234", 125)
 moto.describirse()
