@@ -8,9 +8,6 @@ class MyEmptyPerson:
     pass  # Para poder dejar la clase vacía
 
 
-print(MyEmptyPerson)
-print(MyEmptyPerson())
-
 # Clase con constructor, funciones y popiedades privadas y públicas
 
 
